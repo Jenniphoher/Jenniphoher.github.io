@@ -1,0 +1,779 @@
+body {
+  align-items: center; 
+  justify-content: center;
+  background-image: url("https://img.lovepik.com/background/20211022/large/lovepik-stroke-texture-background-image_401915964.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  
+}
+
+.slider {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: indianRed;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Copperplate", fantasy;
+  color: cornsilk;
+  text-shadow: 0px 0 brown, 0 1.5px brown, 1px 0 brown, 0 -1px brown, 2px 2px 5px maroon;
+  border: 4px solid brown;
+  border-radius: 15px;
+  transition: width 2s, padding 2s, letter-spacing 2s, font-size 0.5s, border 0.5s, background-color 0.2s, color 0.2s;
+}
+
+.slider:hover {
+  width: 120px;
+  padding: 7px;
+  letter-spacing: 5px;
+  font-size: 25px;
+  background-color: tomato;
+  color: beige;
+  border: 3px solid maroon;
+  
+}
+
+.back {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 1200px;
+  color: chocolate;
+  border-radius: 15px;
+  background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/seamless-background-textures-15-780x780.jpg");
+}
+
+.break {
+  border-top: 3px dotted chocolate;
+  margin-top: 7px;
+}
+
+.info {
+  margin: 35px;
+  outline: 2px solid chocolate;
+  border-radius: 15px;
+  border: 4px solid burlywood;
+  background-color: cornsilk;
+}
+
+.mepic {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid chocolate;
+  border-radius: 50%;
+}
+
+.nacon {
+  margin: 30px;
+  margin-top: 20px;
+  
+}
+
+.name { 
+  text-align: left;
+  font-size: 70px;
+  letter-spacing: -6px;
+  margin-top: 5px;
+  text-indent: 15px;
+  color: brown;
+}
+
+.contact {
+  margin-top: -18px;
+  margin-bottom: -19px;
+}
+  
+.pcontact, .econtact, .hcontact {
+  font-size: 15px;
+  margin-top: -15px;
+  letter-spacing: -1px;
+  text-indent: 9px;
+  }
+ 
+
+.abme {
+  color: brown;
+  margin: 45px;
+  padding-bottom: 35px;
+  border: 5px solid coral;
+  border-radius: 15px;
+  background-image: url("https://media.istockphoto.com/id/1443445771/photo/yellow-fabric-cloth-texture-background-seamless-pattern-of-natural-textile.jpg?s=612x612&w=0&k=20&c=KFrgq12Yw3UtcVQn1LgJAtnvdwTsLM8ZmOgWJC9TK-E=");
+}
+
+.about {
+  margin-top: 0px;
+  padding-top: 10px;
+  background-color: coral;
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: -2px;
+}
+
+.me {
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-top: 15px;
+  margin-bottom: -10px;
+  font-family: "Monaco";
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: bold;
+  transform: scale(1, 1.1);
+  line-height: 0.96;
+}
+
+.edn {
+  margin-top: -1115px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 650px;
+  background-color: cornsilk;
+  border-radius: 8px;
+  font-family: "Fraktur", serif;
+}
+
+.tooltip, .tooltext {
+  visibility: hidden;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.tooltip:hover, .tooltext {
+  visibility: visibile;
+}
+
+.eimg {
+  margin-top: -30px;
+  margin-left: 150px;
+  width: 65%; 
+}
+
+.etitle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -110px;
+  margin-bottom: 44px;
+  text-indent: 120px;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.schoolt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  height: 15px;
+  background-color: coral;
+}
+
+
+.highsch {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 540px;
+  height: 340px;
+  background-image: url("https://printabletemplates.com/wp-content/uploads/2018/01/certificate-border-34-580x410.jpg");
+  background-size: 100% 100%;
+  border: 7px solid;
+  border-style: double;
+  border-radius: 3px;
+}
+
+.hsschool {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 65px;
+  margin-bottom: 3px;
+  text-indent: 0px;
+  text-transform: uppercase;
+}
+
+.schname {
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 4px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+}
+
+.hsedulevel {
+  text-align: center;
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.schtext {
+  text-align: center;
+  margin-left: 65px;
+  margin-right: 65px;
+  font-size: 10px;
+  font-style: oblique;
+  margin-top: -4px;
+  margin-bottom: 0px;
+  text-indent: 0px;
+}
+
+.hsicon {
+  display: block;
+  margin: auto;
+  margin-top: 0px;
+  width: 10%;
+}
+
+.college {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 540px;
+  height: 340px;
+  background-image: url("https://media.istockphoto.com/id/166007379/vector/large-certificate-diploma.jpg?s=612x612&w=0&k=20&c=14ztvTqjoTPAK99kw-h5MXtPny1EXFL4Yn2ftdCkprk=");
+  background-size: 100% 100%;
+  border: 2.5px solid burlywood;
+  border-radius: 3px;
+}
+
+.school {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 68px;
+  margin-bottom: 5px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.school1 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: -7px;
+  margin-bottom: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.colname {
+  text-align: center;
+  margin-top: -2px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+}
+
+.edulevel {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -3px;
+  margin-bottom: 3px;
+}
+
+.coltext {
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 10px;
+  font-style: oblique;
+  margin-top: -3px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+
+.colicon {
+  display: block;
+  margin: auto;
+  margin-top: 4px;
+  width: 10%;
+}
+
+.work {
+  margin-top: -1050px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 660px;
+  outline: 2px solid chocolate;
+  border: 4px solid burlywood;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  background-color: cornsilk;
+  background-size: 100% 100%;
+}
+
+.woex {
+ margin-top: 5px;
+ margin-bottom: -10px;
+ margin-left: 10px;
+ color: maroon;
+ font-size: 52px;
+ font-weight: bold;
+ text-shadow: 1px 1px 1px grey;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.wtitle {
+  margin-top: 15px;
+  margin-bottom: -10px;
+  background-color: coral;
+  color: brown;
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 3px;
+  text-transform: uppercase;
+}
+
+.wicon {
+  width: 15%;
+  margin-top: -90px;
+  margin-left: 10px;
+}
+
+.detail {
+  display: inline-block;
+  flex-direction: column;
+  width: 500px;
+  height: 130px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.wspe {
+  margin-bottom: 5px;
+  color: maroon;
+  font-size: 18.5px;
+  text-indent: 4px;
+}
+
+.wloc, .wdate, .wloc2 {
+  display: inline-block;
+}
+
+.wloc {
+  margin-right: 15px;
+}
+
+.wloc2 {
+  margin-right: 55px;
+}
+
+.box {
+  outline: 4px solid burlywood;
+  border-radius: 10px;
+  margin-top: -5px;
+  padding: 3px;
+  color: ;
+}
+
+.wdes {
+  font-size: 14px;
+  text-indent: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-top: -10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: ;
+  line-height: 0.95;
+}
+
+.extra {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -670px;
+  width: 650px;
+  height: 900px;
+  border: 10px double orange;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  background-color: cornsilk;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/028/537/original/trendy-abstract-brush-stroke-for-copy-space-frame-png.png");
+  background-size: 170% 140%;
+  background-position: center;
+  background-clip: padding-box;
+  
+}
+
+.paint {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 90px;
+  width: 35%
+}
+
+.skills {
+  margin-top: -155px;
+  margin-left: 285px;
+  padding-top: 60px;
+  color: cornsilk;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 3px 0px 0px #6da9ad,
+               0px 2.5px 0px #6da9ad,
+               -3px 0px 0px #6da9ad,
+               0px -2px 0px #6da9ad,
+               3px -2px 0px #6da9ad,
+               3px 2px 0px #6da9ad,
+               -3px 2px 0px #6da9ad,
+               -3px -2px 0px #6da9ad;
+}
+
+.skwords {
+  font-family: "Helvetica Neue," sans-serif;
+  position: relative;
+}
+
+.com {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-right: 0px;
+  color: red;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  transform: scale(1, 1.5);
+  text-shadow: -1px 1px 0px black,
+                1px 1px 0px black,
+                1px 0px 0px black,
+               -1px 0px 0px black;
+}
+
+.lec, .leo, .lem, .lemm, .leu, .len, .lei, .lecc, .lea, .let, .leii, .leoo, .lenn {
+  display: inline-block;
+  position: relative;
+  animation: letters 2.5s infinite;
+}
+
+@keyframes letters {
+  0% {bottom:0px; transform:scale(1, 1);}
+  10% {bottom:0px; transform:scale(0.5, 1.8);}
+  15% {bottom:30px; transform:scale(0.5, 1.5);}
+  25% {bottom:40px; transform:scale(1.3, 0.6); color: yellow;}
+  35% {bottom:0px; transform:scale(1.6, 0.3);}
+  40% {bottom:5px; transform:scale(0.7, 1); color: green;}
+  50% {bottom:30px; transform:scale(1.5, 0.8); color: indigo;}
+  51% {bottom:30px; transform:scale(1.6, 0.6);}
+  60% {bottom:0px; transform:scale(1.8, 0.5);}
+  75% {bottom:0px; transform:scale(1, 1);}
+  100% {bottom:0px; transform:scale(1, 1);}
+}
+
+.leo {
+  animation-name: letters;
+  animation-delay: 0.05s;
+}
+
+.lem {
+  animation-name: letters;
+  animation-delay: 0.08s;
+}
+
+.lemm {
+  animation-name: letters;
+  animation-delay: 0.11s;
+}
+
+.leu {
+  animation-name: letters;
+  animation-delay: 0.14s;
+}
+
+.len {
+  animation-name: letters;
+  animation-delay: 0.17s;
+}
+
+.lei {
+  animation-name: letters;
+  animation-delay: 0.20s;
+}
+
+.lecc {
+  animation-name: letters;
+  animation-delay: 0.23s;
+}
+
+.lea {
+  animation-name: letters;
+  animation-delay: 0.26s;
+}
+
+.let {
+  animation-name: letters;
+  animation-delay: 0.29s;
+}
+
+.leii {
+  animation-name: letters;
+  animation-delay: 0.32s;
+}
+
+.leoo {
+  animation-name: letters;
+  animation-delay: 0.35s;
+}
+
+.lenn {
+  animation-name: letters;
+  animation-delay: 0.38s;
+}
+
+.att {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 250px;
+  margin-right: 0px;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.watt, .wdea {
+  display: inline-block;
+  position: relative;
+}
+
+.watt {
+  animation: watt 5s linear infinite;
+}
+
+@keyframes watt {
+  0% {color:red;}
+  16% {color:orange;}
+  32% {color:yellow;}
+  48% {color:green;}
+  64% {color:blue;}
+  80% {color:indigo;}
+  96% {color:violet;}
+  100% {color:red;}
+}
+
+.wdea {
+  animation: wdea 1.5s linear infinite;
+  animation-fill-mode: backwards;
+  text-shadow: -1px 1px 0px cornsilk,
+                1px 1px 0px cornsilk,
+                1px -1px 0px cornsilk,
+               -1px -1px 0px cornsilk;
+}
+
+@keyframes wdea {
+  0% {transform:rotate(0deg);}
+  25% {transform:rotate(120deg);}
+  50% {transform:rotate(240deg);}
+  75% {transform:rotate(360deg);}
+  100% {transform:rotate(360deg);}
+}
+
+
+.spbub {
+  display: inline-block;
+  width: 15%;
+  margin-left: 410px;
+  margin-bottom: -70px;
+  opacity: 80%;
+}
+
+.cre {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 80px;
+  margin-right: 0px;
+  font-size: 35px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.cletc, .cletr, .clete, .cleta, .clett, .cleti, .cletv, .cletii, .clettt, .clety {
+  display: inline-block;
+  position: relative;
+  animation: cre 4.5s linear infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes cre {
+  0% {transform:scale(0, 0) rotateY(180deg);}
+  2% {transform:scale(0, 1) rotateY(180deg);}
+  5% {transform:scale(1, 1) rotateY(180deg);}
+  10% {transform:scale(1, 1) rotateY(0deg);}
+  17% {transform:scale(1.5, 1.5) rotateY(0deg); text-shadow: 5px 5px 5px;}
+  28% {transform:scale(1, 1) rotateY(0deg); text-shadow: 0px 0px 0px;}
+  90% {transform:scale(1, 1) rotateY(0deg);}
+  95% {transform:scale(1, 1) rotateY(180deg);}
+  98% {transform:scale(0, 1) rotateY(180deg);}
+  100% {transform:scale(0, 0) rotateY(180deg);}
+}
+
+.cletr {
+  animation-delay: 0.2s;
+}
+
+.clete {
+  animation-delay: 0.3s;
+}
+
+.cleta {
+  animation-delay: 0.4s;
+}
+
+.clett {
+  animation-delay: 0.5s;
+}
+
+.cleti {
+  animation-delay: 0.6s;
+}
+
+.cletv {
+  animation-delay: 0.7s;
+}
+
+.cletii {
+  animation-delay: 0.8s;
+}
+
+.clettt {
+  animation-delay: 0.9s;
+}
+
+.clety {
+  animation-delay: 1s;
+}
+
+.cri {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 230px;
+  margin-right: 0px;
+  height: 100px;
+  color: cornsilk;
+  text-align: center;
+  font-size: 26px;
+  font-stretch: semi-condensed;
+  font-weight: 900;
+  text-shadow: -1px 1px 0px black,
+                1px 1px 0px black,
+                1px -1px 0px black,
+               -1px -1px 0px black,
+               -4px -2px 2px #f60406,
+                4px 2px 2px #1df7f7 ;
+}
+
+.wcri, .wthi {
+  display: block;
+  position: relative;
+  animation: wboth 3s linear infinite;
+}
+
+.wcri {
+  transform: rotateX(180deg);
+  margin-bottom: -15px
+}
+
+.wthi {
+  transform: rotateX(180deg);
+}
+
+@keyframes wboth {
+  0% {font-size:30px;}
+  20% {font-size:30px; transform:rotateX(0deg);}
+  50% {font-size:50px; transform:rotateX(0deg);}
+  60% {font-size:50px; transform:rotateX(0deg);}
+  80% {font-size:30px; transform:rotateX(0deg);}
+  100% {font-size:30px; transform:rotateX(180deg);}
+}
+
+.team {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 130px;
+  margin-right: 0px;
+  font-size: 26px;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px grey;
+  position: relative;
+  animation-name: wwor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.team span:nth-child(1) {
+  color: white;
+  text-shadow: -1px 1px 0px black,
+                1px 1px 0px black,
+                1px -1px 0px black,
+               -1px -1px 0px black,
+                2px 2px 4px grey;
+}
+
+.team span:nth-child(2) {
+  margin-left: -9px;
+}
+
+@keyframes wwor {
+  0% {left:30px; transform:scale(1, 1); letter-spacing:0px; color: black;}
+  5% {left:150px; transform:scale(0.5, 2); letter-spacing:0px; color: red;}
+  30% {left:0px; transform:scale(1, 1); letter-spacing:5px; color: black;}
+  60% {left:80px; transform:scale(1, 1); letter-spacing:1px; color: black;}
+  100% {left:30px; transform:scale(1, 1); letter-spacing:0px; color: black;}
+}
+
+
+.adap {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+  transform: scale(1.5, 1.5);
+}
+
+.adap span {
+  display: inline-block;
+  animation: abig 4s infinite;
+}
+
+@keyframes abig {
+  0% {font-size:0px; letter-spacing:0px; text-shadow:0px 0px 0px darkGray; color:black;}
+  50% {font-size:35px; letter-spacing:5px; text-shadow:4px 4px 4px darkGray; color: white;}
+  75% {font-size:35px; letter-spacing:5px; text-shadow:4px 4px 4px darkGray; color: white;}
+  100% {font-size:0px; letter-spacing:5px; text-shadow:4px 4px 4px darkGray; color: white;}
+}
